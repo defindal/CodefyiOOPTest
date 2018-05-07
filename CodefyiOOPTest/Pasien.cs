@@ -78,5 +78,17 @@ namespace CodefyiOOPTest
                 else return false;
             }
         }
+
+        public bool SudahMembuatJanji
+        {
+            get
+            {
+                if (ListPemeriksaan.Count() > 0)
+                {
+                    return ListPemeriksaan.Last().TanggalPemeriksaan > DateTime.Now;
+                }
+                else return false;
+            }
+        }
     }
 }
