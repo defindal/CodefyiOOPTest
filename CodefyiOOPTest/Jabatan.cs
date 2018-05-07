@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CodefyiOOPTest
 {
-    public class Class1
+    public enum Jabatan
     {
+        RESEPSIONIS, SATPAM , AHLIMATA
     }
 }
