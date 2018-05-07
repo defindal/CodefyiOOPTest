@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodefyiOOPTest
 {
-    class DetilPemesananKaryawan : DetilPemesanan
+    public class DetilPemesananKaryawan : DetilPemesanan
     {
         public PemesananKaryawan PemesananKaryawan { get; set; }
     }
